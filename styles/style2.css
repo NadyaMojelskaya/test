@@ -1,0 +1,50 @@
+#add{
+  margin-right: 500px;
+}
+
+.btn-primary{
+  max-width: 100px;
+  margin-left: 50%;
+}
+body{
+  background-image: url(../images/5.jpg);
+  background-size: 1600px 900px;
+
+background-attachment: fixed;
+}
+.table1{
+  width: 1510px; /* Ширина таблицы */
+  height: 700px;
+  border: 0px; /* Рамка вокруг таблицы */
+  margin: center; /* Выравниваем таблицу по центру окна  */ 
+ }
+.table1 td{/* Выравниваем текст по центру ячейки */
+  empty-cells: hide;
+  vertical-align: text-top;
+ }
+#col2{
+  background: rgba(255,255,255,0.7);
+
+}
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  color: #474542;
+
+}
+caption {
+  padding: 10px;
+  color: white;
+  background: #8FD4C1;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+}
+th {
+  border-bottom: 3px solid ;
+  border-bottom-color: #007bff;
+  padding: 10px ;
+  text-align: left;
+}
+td {
+  padding: 10px;
+}
