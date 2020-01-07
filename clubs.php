@@ -3,6 +3,7 @@ session_start();
 if (!(isset($_SESSION['username'])) && !(isset($_SESSION['password'])))	header('location:index.php');
 $connection = mysqli_connect('localhost', 'root', '', 'sport2');
 echo "hello branch2";
+echo "this is master";
 ?>
 
 <!DOCTYPE html>
