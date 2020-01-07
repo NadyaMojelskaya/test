@@ -1,7 +1,6 @@
 <?php
 session_start();
 if (!(isset($_SESSION['username'])) && !(isset($_SESSION['password'])))	header('location:index.php');
-echo "hello baby";
 $connection = mysqli_connect('localhost', 'root', '', 'sport2');
 ?>
 

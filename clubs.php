@@ -4,6 +4,7 @@ if (!(isset($_SESSION['username'])) && !(isset($_SESSION['password'])))	header('
 $connection = mysqli_connect('localhost', 'root', '', 'sport2');
 echo "hello branch2";
 echo "this is master";
+echo "hello baby";
 ?>
 
 <!DOCTYPE html>
